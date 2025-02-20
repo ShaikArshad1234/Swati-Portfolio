@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/" alt="photo" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Shaik Arshad">Swati Gadekar</h1>
+          <p class="title">Data Analyst</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:gadekarswati502@gmail.com" class="contact-link">gadekarswati502@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+91 7499650281</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Pune, Maharashtra</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/swatigadekar09" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/SWATIG01" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            <h1>Hi, I'm Swati Gadekar</h1>
+            <h4>Looking for data analyst role</h4>
+            Driven Data Analyst with hands-on internship experience at Code Spyder Technologies, specializing in machine learning and predictive modeling. Proficient in Python, SQL, and data visualization tools like Power BI and Matplotlib. Expertise in transforming complex datasets into actionable insights through feature engineering and model evaluation. Adept at deploying real-world applications such as house price prediction and sentiment analysis. Passionate about leveraging data to drive impactful decisions and solutions.
+          </p>
+        </section>
+
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+                <p class="service-item-text">
+                  Data and corresponding features
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        
+
+            
+
+
+             
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+      
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      
+
+        <section class="clients">
+
+          
+        </section>
+
+      </article>
+
+
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vivekanand College, Aurangabad - Post Graduation [MCA]</h4>
+              <span>2023 — Presnt</span>
+              <p class="timeline-text">
+                
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Deogiri college, Aurangabad - Graduation [BCA]</h4>
+              <span>2019 — 2022</span>
+              <p class="timeline-text"></p>   
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Former Data Analyst Intern at Code Spyder Technology, Pune - Jan 2023 - Jun 2023</h4>
+              <span>Gathered and integrated historical house price data and corresponding features from platforms like Zillow or Kaggle. • Cleaned and preprocessed data, handling missing values and performing feature engineering. • Divided dataset into training and testing sets for model building and evaluation. • Designed and trained a linear regression model to learn relationships between features and house prices. • Assessed model performance using metrics like MSE or RMSE. • Adjusted hyperparameters or explored alternative algorithms to enhance model accuracy. • Deployed the optimized model in a real-world application for predicting house prices based on user inputs.</span>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <button class="resume-button" id="resumeButton">Resume</button>
+        </section>
+        
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="90">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+            
+          </ul>
+        </section>
+      </article>
+
+
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn></button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Analyst</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="Data Analyst">
+              <a href="#">
+                <h3 class="project-title">Wine Quality Prediction</h3>
+                <p class="project-category">
+                  •	Predicting wine quality using machine learning techniques to analyze dataset and identify key factors affecting wine quality.
+                  •	Key Skills: Machine learning, Data analysis, Python, Scikit-learn, Pandas
+                  •	Responsibilities: Imported libraries and dataset, Conducted exploratory data analysis, Developed and trained machine learning models, Evaluated model performance
+                </p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Data Analyst">
+              <a href="#">
+                <h3 class="project-title">Amazon Product Reviews Sentiment Analysis</h3>
+                <p class="project-category">
+                  •	Analyzed Amazon product reviews using natural language processing techniques to determine sentiment and identify key factors driving customer satisfaction.
+                  •	Key Skills: Natural language processing, Sentiment analysis, Text preprocessing, Python, NLTK, Scikit-learn
+                  •	Responsibilities: Imported libraries and dataset, Preprocessed and cleaned reviews, Analyzed dataset and converted text into words, Trained, evaluated, and predicted sentiment models
+                </p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Data Analyst">
+              <a href="#">
+                <h3 class="project-title">HR Analytics Dashboard</h3>
+                <p class="project-category">
+                  •	Created an HR analytics dashboard using Power BI to visualize employee data and provide insights for HR decision-making.
+                  •	Key Skills: Data visualization, Power BI, Dashboard design, HR analytics
+                  •	Responsibilities: Imported libraries and dataset, Selected dashboard background and design, Created dashboard visualizations for employee details, Finalized dashboard with interactive features
+                  </p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>   
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
